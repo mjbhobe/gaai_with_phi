@@ -1,0 +1,24 @@
+# python packages needed
+pandas
+numpy
+matplotlib
+seaborn
+python-dotenv
+yfinance
+streamlit
+youtube-transcript-api
+newspaper4k 
+lxml_html_clean
+sqlalchemy
+
+# phi-data is now agno
+agno
+
+# LLM APIs
+openai
+anthropic
+google-generativeai
+groq
+
+# tools to be used
+duckduckgo-search
