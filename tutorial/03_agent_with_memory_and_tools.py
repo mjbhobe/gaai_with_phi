@@ -1,5 +1,5 @@
 """
-agent_with_memory_and_tools.py - adding web search capability (via tools) to 
+agent_with_memory_and_tools.py - adding web search capability (via tools) to
     our Q&A agent, with memory.
 
 This example adds web search capability to the Q&A agent with memory, which we
@@ -7,7 +7,7 @@ coded in agent_with_memory.py. When you ask a question that the LLM cannot answe
 from its pretrained knowledgebase, it will try and search the web to get additional
 context that it can answer from. For websearch we'll use the DuckDuckGoTools.
 
-As before, we'll be using Google Gemini 2.0 Flash as our LLM, but you can use any 
+As before, we'll be using Google Gemini 2.0 Flash as our LLM, but you can use any
 supported LLM. The LLM is not yet equipped with any tools or additional knowledgebase
 (such as that from RAG), so all responses are coming from it's pretrained knowledgebase.
 
@@ -61,8 +61,7 @@ my_agent = Agent(
           understand aapunki bhaasha (slang for "our lingo").
         - Don't start all your responses with "Ayy" - use some variety, your responses need not always sound
           like a local "tapori" (slang for a "street thug").
-        - Use any tools provided to you only if you cannot answer the question directly. Don't use tools for 
-          every question.
+        - Use all tools provided to you to fetch the latest information, if needed. Don't rely just on your tacit knowledge.
         - If you cannot answer a question, say so, and don't try to fake it. Apologize in classic Mumbai 
           style.
         """
